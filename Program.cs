@@ -15,7 +15,7 @@ namespace Back_to_the_future_C_
         //      massiv[i] = Convert.ToInt32(random.Next(1,10));
         //      System.Console.WriteLine("Numbers of massiv: " + massiv[i]);
              
-        //         sum += massiv[i];
+        //         sum += massiv[i];///
           // }
           // Console.Write("Sum: " + sum);
 
