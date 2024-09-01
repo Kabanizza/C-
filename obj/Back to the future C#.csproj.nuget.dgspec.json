@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kabanizza/Downloads/BTTFC#/BTTFC-/Back to the future C#/Back to the future C#.csproj": {}
+    "/Users/kabanizza/Downloads/C-/Back to the future C#.csproj": {}
   },
   "projects": {
-    "/Users/kabanizza/Downloads/BTTFC#/BTTFC-/Back to the future C#/Back to the future C#.csproj": {
+    "/Users/kabanizza/Downloads/C-/Back to the future C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kabanizza/Downloads/BTTFC#/BTTFC-/Back to the future C#/Back to the future C#.csproj",
+        "projectUniqueName": "/Users/kabanizza/Downloads/C-/Back to the future C#.csproj",
         "projectName": "Back to the future C#",
-        "projectPath": "/Users/kabanizza/Downloads/BTTFC#/BTTFC-/Back to the future C#/Back to the future C#.csproj",
+        "projectPath": "/Users/kabanizza/Downloads/C-/Back to the future C#.csproj",
         "packagesPath": "/Users/kabanizza/.nuget/packages/",
-        "outputPath": "/Users/kabanizza/Downloads/BTTFC#/BTTFC-/Back to the future C#/obj/",
+        "outputPath": "/Users/kabanizza/Downloads/C-/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kabanizza/.nuget/NuGet/NuGet.Config"

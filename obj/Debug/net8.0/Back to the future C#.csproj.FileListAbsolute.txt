@@ -12,3 +12,18 @@
 /Users/kabanizza/Desktop/Back to the future C#/obj/Debug/net8.0/Back to the future C#.pdb
 /Users/kabanizza/Desktop/Back to the future C#/obj/Debug/net8.0/Back to the future C#.genruntimeconfig.cache
 /Users/kabanizza/Desktop/Back to the future C#/obj/Debug/net8.0/ref/Back to the future C#.dll
+/Users/kabanizza/Downloads/C-/bin/Debug/net8.0/Back to the future C#
+/Users/kabanizza/Downloads/C-/bin/Debug/net8.0/Back to the future C#.deps.json
+/Users/kabanizza/Downloads/C-/bin/Debug/net8.0/Back to the future C#.runtimeconfig.json
+/Users/kabanizza/Downloads/C-/bin/Debug/net8.0/Back to the future C#.dll
+/Users/kabanizza/Downloads/C-/bin/Debug/net8.0/Back to the future C#.pdb
+/Users/kabanizza/Downloads/C-/obj/Debug/net8.0/Back to the future C#.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kabanizza/Downloads/C-/obj/Debug/net8.0/Back to the future C#.AssemblyInfoInputs.cache
+/Users/kabanizza/Downloads/C-/obj/Debug/net8.0/Back to the future C#.AssemblyInfo.cs
+/Users/kabanizza/Downloads/C-/obj/Debug/net8.0/Back to the future C#.csproj.CoreCompileInputs.cache
+/Users/kabanizza/Downloads/C-/obj/Debug/net8.0/Back to the future C#.sourcelink.json
+/Users/kabanizza/Downloads/C-/obj/Debug/net8.0/Back to the future C#.dll
+/Users/kabanizza/Downloads/C-/obj/Debug/net8.0/refint/Back to the future C#.dll
+/Users/kabanizza/Downloads/C-/obj/Debug/net8.0/Back to the future C#.pdb
+/Users/kabanizza/Downloads/C-/obj/Debug/net8.0/Back to the future C#.genruntimeconfig.cache
+/Users/kabanizza/Downloads/C-/obj/Debug/net8.0/ref/Back to the future C#.dll

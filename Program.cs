@@ -247,8 +247,148 @@ namespace Back_to_the_future_C_
         // System.Console.WriteLine(fact);
         
 
+        // int counter = 0;
+        // int number = 0;
+        // System.Console.WriteLine("Write youre number: ");
+        // number =  Convert.ToInt32(Console.ReadLine());
+        // for(int i = 0; i <= number; i++)
+        // {
+        //     counter += i;
+            
+        // }
+        // System.Console.WriteLine(counter);
+
+        // int number = 0;
+        // int counter = 1;
+        // System.Console.WriteLine("Write your number: ");
+        // number = Convert.ToInt32(Console.ReadLine());
+        // for(int i = 1; i <=number; i++)
+        // {
+        //     counter *= i;
+
+        // }
+        // System.Console.WriteLine($"Your factorial: "+ counter);
+
+        // int number = 0;
+        // System.Console.WriteLine("Write your number to show all odd numbers: ");
+        // number = Convert.ToInt32(Console.ReadLine());
+        // if (number%2 == 0)
+        // {
+        //     for(int i = 1; i <= number; i++)
+        //     {
+        //         if(i % 2 == 0)
+        //         System.Console.WriteLine(i);
+        //     }
+
+        // }
+        // else{
+        //     for(int i = 1; i <= number; i++)
+        //     {
+        //         if(i % 2 != 0)
+        //         System.Console.WriteLine(i);
+        //     }
+        // }
+
+
+        // int number = 0;
+        // System.Console.WriteLine("Write your number: ");
+        // number = Convert.ToInt32(Console.ReadLine());
+        // switch (number)
+        // {
+        //     case 1:
+        //     for(int i = 1; i <= 10; i++)
+        //     {
+            
+        //        Console.WriteLine($"{number} * {i} = {i * number}");
+
+        //     }
+        //     break;
+        //     case 2:
+        //     for(int i = 1; i <= 10; i++)
+            
+
+        //     {
+        //        Console.WriteLine($"{number} * {i} = {i * number}");
+        //     }
+
+        //     break;
+            
+        //     case 3:
+        //     for(int i = 1; i <= 10; i++)
+            
+
+        //     {
+        //        Console.WriteLine($"{number} * {i} = {i * number}");
+        //     }
+
+        //     break;
+        //     case 4:
+        //     for(int i = 1; i <= 10; i++)
+            
+
+        //     {
+        //        Console.WriteLine($"{number} * {i} = {i * number}");
+        //     }
+
+        //     break;
+        //     case 5:
+        //     for(int i = 1; i <= 10; i++)
+            
+
+        //     {
+        //        Console.WriteLine($"{number} * {i} = {i * number}");
+        //     }
+
+        //     break;
+        //     case 6:
+        //     for(int i = 1; i <= 10; i++)
+            
+
+        //     {
+        //        Console.WriteLine($"{number} * {i} = {i * number}");
+        //     }
+
+        //     break;
+        //     case 7:
+        //     for(int i = 1; i <= 10; i++)
+            
+
+        //     {
+        //        Console.WriteLine($"{number} * {i} = {i * number}");
+        //     }
+
+        //     break;
+        //     case 8:
+        //     for(int i = 1; i <= 10; i++)
+            
+
+        //     {
+        //        Console.WriteLine($"{number} * {i} = {i * number}");
+        //     }
+
+        //     break;
+        //     case 9:
+        //     for(int i = 1; i <= 10; i++)
+            
+
+        //     {
+        //        Console.WriteLine($"{number} * {i} = {i * number}");
+        //     }
+
+        //     break;
+        //     case 10:
+        //     for(int i = 1; i <= 10; i++)
+            
+
+        //     {
+        //        Console.WriteLine($"{number} * {i} = {i * number}");
+        //     }
+
+        //     break;
+        //     }
         
+        }
         
     }
 }
-}   
+        
