@@ -386,9 +386,36 @@ namespace Back_to_the_future_C_
 
         //     break;
         //     }
+
+
+        // int number = 0;
+        // int count = 0;
+        // System.Console.WriteLine("Wite yoor number and i show you is sum odd numbers: ");
+        // number = Convert.ToInt32(Console.ReadLine());
+        // for(int i = 0; i <= number; i++)
+        // {
+        //     if(i %2 != 0)
+        //     {
+        //         System.Console.WriteLine(i);
+        //         count += i;
+        //     }
+        // }
+        // System.Console.WriteLine(count);
+        // }
         
+
+        int number =0;
+        System.Console.WriteLine("write your number and i show you all numbers which are devided: ");
+        number = Convert.ToInt32(Console.ReadLine());
+        for(int i = 0;i <= number; i++)
+        {
+            if (i % 7 == 0 && i % 3  != 0)
+            {System.Console.WriteLine((i));
+
+            }
         }
         
+
     }
 }
-        
+}
