@@ -404,18 +404,74 @@ namespace Back_to_the_future_C_
         // }
         
 
-        int number =0;
-        System.Console.WriteLine("write your number and i show you all numbers which are devided: ");
-        number = Convert.ToInt32(Console.ReadLine());
-        for(int i = 0;i <= number; i++)
-        {
-            if (i % 7 == 0 && i % 3  != 0)
-            {System.Console.WriteLine((i));
+        // int number =0;
+        // System.Console.WriteLine("write your number and i show you all numbers which are devided: ");
+        // number = Convert.ToInt32(Console.ReadLine());
+        // for(int i = 0;i <= number; i++)
+        // {
+        //     if (i % 7 == 0 && i % 3  != 0)
+        //     {System.Console.WriteLine((i));
 
-            }
-        }
+        //     }
+        // }
+
+        // int i = 0;
+        // int number = 0;
+        // double counter = 0;
+        // System.Console.WriteLine("Please, write your number:) ");
+        // number = Convert.ToInt32(Console.ReadLine());
+        
+        // for(i = 0; i <= number; i++)
+        // {
+        //     counter = Math.Pow(i, 2);
+        //         System.Console.WriteLine($"{number}^2 = {counter}");
+        // }
+
+        // int i = 0;
+        
+        // int number = 0;
+        // System.Console.WriteLine("write your number: ");
+        // number = Convert.ToInt32(Console.ReadLine());
+        // for(i = 1; i <=number; i++)
+        // {
+        //     if(number % i == 0)
+        //     {
+        //         Console.WriteLine(i);
+        //     }
+            
+        //     }
+            
+        // }
+
+        // int i = 0;
+        // int number = 0;
+        // int counter = 0;
+        // System.Console.WriteLine("Write your number: ");
+        // number = Convert.ToInt32(Console.ReadLine());
+        // for(i = number-1; i >= 0; i--)
+        // {
+        //     Console.WriteLine(i);
+        // }
         
 
+        int number = 0;
+        double counter = 0;
+        int i = 0;
+        System.Console.WriteLine("Write your number: ");
+        number = Convert.ToInt32(Console.ReadLine());
+        while(i <= number)
+        {
+            counter = Math.Pow(2,i);
+            if(counter <= number)
+            {
+                Console.WriteLine(counter);
+            }
+            i++;
+            
+        }
+
+
     }
-}
-}
+    }}
+
+        
