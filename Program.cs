@@ -1,4 +1,5 @@
 using System;
+using System.Globalization;
 using System.Net;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
@@ -454,23 +455,121 @@ namespace Back_to_the_future_C_
         // }
         
 
-        int number = 0;
-        double counter = 0;
-        int i = 0;
-        System.Console.WriteLine("Write your number: ");
-        number = Convert.ToInt32(Console.ReadLine());
-        while(i <= number)
+        // int number = 0;
+        // double counter = 0;
+        // int i = 0;
+        // System.Console.WriteLine("Write your number: ");
+        // number = Convert.ToInt32(Console.ReadLine());
+        // while(i <= number)
+        // {
+        //     counter = Math.Pow(2,i);
+        //     if(counter <= number)
+        //     {
+        //         Console.WriteLine(counter);
+        //     }
+        //     i++;
+            
+        // }
+
+
+        // int counter = 0;
+        // int count = 0;
+        // int number = Convert.ToInt32(Console.ReadLine());
+        // if(number == 0)
+        // {
+        //     counter = 1;
+        // }
+        // else{
+        //     for(counter = 1; counter <= number; counter++)
+        // {
+        //     number /=10;
+            
+        // }
+        // }
+        // count = counter;
+        // System.Console.WriteLine("Количество цифр: " + count);
+       
+
+                    // Amstrong Number
+    //    int AmstrongNumber = 0;
+    //     int number = 0;
+    //     int sum = 0;
+    //     int counter = 0;
+    //     System.Console.WriteLine("Write your number and i will do the math whether it is number, number of Amstrong or not: ");
+    //     number = Convert.ToInt32(Console.ReadLine());
+    //     int savenumber = number;
+    //     int fornumber = number;
+    //     for(int i = number; i > 0; counter++)
+    //         {
+    //             i /= 10;
+    //         }
+            
+    //         System.Console.WriteLine(counter);
+            
+    //     while(number > 0)
+    //     {
+            
+            
+           
+    //       AmstrongNumber = number % 10; 
+    //       sum += (int)Math.Pow(AmstrongNumber,counter);
+          
+
+    //       number /=10;
+
+         
+    //     }
+       
+    //     if(sum == savenumber)
+    //     {
+    //         System.Console.WriteLine($"{sum} is an Amstrong number ");
+    //     }
+    //     else {
+    //         System.Console.WriteLine($"{sum} is not an Amstrong number");
+    //     }
+        
+
+
+        // int UserNumber = 0;
+        //  System.Console.WriteLine("write your number and i will check all the deviders: ");
+        //  UserNumber = Convert.ToInt32(Console.ReadLine());
+        //  for(int i = 1; i <= UserNumber; i++)
+        //  {
+        //     if(UserNumber %i == 0)
+        //     {
+        //         System.Console.Write(" " + i);
+        //     }
+        //  }
+
+
+        int NumberUser = 0;
+        bool TorF = true;
+        int counter = 0;
+        System.Console.WriteLine("Write youre number and i will check to see if it is number simple or not: ");
+        NumberUser = Convert.ToInt32(Console.ReadLine());
+        for(int i = 2; i < NumberUser; i++)
         {
-            counter = Math.Pow(2,i);
-            if(counter <= number)
+            
+            if(NumberUser % i == 0 )
             {
-                Console.WriteLine(counter);
+                
+                TorF = false;
+                break;
+                
             }
-            i++;
+            
             
         }
+        if(TorF)
+        {
+            System.Console.WriteLine($"{NumberUser} it is a simpl");
 
+        }
 
+        else{
+            System.Console.WriteLine($"{NumberUser} it is not a simpl");
+        }
+        
     }
     }}
 
