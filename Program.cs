@@ -542,35 +542,91 @@ namespace Back_to_the_future_C_
         //  }
 
 
-        int NumberUser = 0;
-        bool TorF = true;
-        int counter = 0;
-        System.Console.WriteLine("Write youre number and i will check to see if it is number simple or not: ");
-        NumberUser = Convert.ToInt32(Console.ReadLine());
-        for(int i = 2; i < NumberUser; i++)
-        {
+        // int NumberUser = 0;
+        // bool TorF = true;
+        // int counter = 0;
+        // System.Console.WriteLine("Write youre number and i will check to see if it is number simple or not: ");
+        // NumberUser = Convert.ToInt32(Console.ReadLine());
+        // for(int i = 2; i < NumberUser; i++)
+        // {
             
-            if(NumberUser % i == 0 )
+        //     if(NumberUser % i == 0 )
+        //     {z
+                
+        //         TorF = false;
+        //         break;
+                
+        //     }
+            
+            
+        // }
+        // if(TorF)
+        // {
+        //     System.Console.WriteLine($"{NumberUser} it is a simpl");
+
+        // }
+
+        // else{
+        //     System.Console.WriteLine($"{NumberUser} it is not a simpl");
+        // }
+        
+
+        // int number = 0;
+        // int numbertwo = 0;
+        // int count = 0;
+        // number = Convert.ToInt32(Console.ReadLine());
+
+        
+        // for(int i = number; i > 0; i /= 10)
+        //     {
+        //         numbertwo= i % 10;
+        //         System.Console.Write(numbertwo);
+        //     }
+            
+
+
+                    //Faktorial
+            // int NumberFromUser = 0;
+            // System.Console.WriteLine("Wrtite: ");
+            // double count = 1;
+            
+            // NumberFromUser = Convert.ToInt32(Console.ReadLine());
+
+            // for(int i = 1; i <= NumberFromUser; i++)
+            // {
+            //   count *= i; 
+             
+            // }
+            // System.Console.WriteLine(count);
+
+
+            // int NumberFromUser = 0;
+            // int sum = 0;
+            // int counter = 0;
+            // System.Console.WriteLine("Write number: ");
+            // NumberFromUser = Convert.ToInt32(Console.ReadLine());
+            // for(int i = NumberFromUser; i > 0; i /= 10)
+            // {
+            //     counter = i % 10;
+            //     sum += counter;
+                
+            // }
+            // System.Console.WriteLine(sum);
+
+            int[] Array = new int[] {1,2,4,7,5};
+            for(int i = 0; i <= Array.Length; i++)
             {
-                
-                TorF = false;
-                break;
-                
-            }
+                System.Console.WriteLine(Array[i]);
+            }            
             
             
-        }
-        if(TorF)
-        {
-            System.Console.WriteLine($"{NumberUser} it is a simpl");
-
-        }
-
-        else{
-            System.Console.WriteLine($"{NumberUser} it is not a simpl");
-        }
+            
         
     }
+
+        
+
     }}
 
         
+      
