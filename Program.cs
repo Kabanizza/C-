@@ -613,11 +613,45 @@ namespace Back_to_the_future_C_
             // }
             // System.Console.WriteLine(sum);
 
-            int[] Array = new int[] {1,2,4,7,5};
-            for(int i = 0; i <= Array.Length; i++)
+            // int SizeOFArray = 0;
+            // System.Console.WriteLine("Write your size of Array: ");
+            // SizeOFArray = int.Parse(Console.ReadLine());
+            // int[] Array = new int[5];
+
+            // for(int j = 0; j < Array.Length; j++)
+            // {
+            //     System.Console.Write($"Write your number int this {j} index:\t ");
+            //     Array[j] = int.Parse(Console.ReadLine());
+            // } 
+
+            // for(int i = 0; i < Array.Length; i++)
+            //     {
+            //         System.Console.WriteLine(Array[i]);
+            //     }          
+
+            int SizeArray = 0;
+            System.Console.Write("Write you size of Array: ");
+            SizeArray = Convert.ToInt32(Console.ReadLine());
+            int[] MyArray = new int[SizeArray];
+            int max = 0;
+            System.Console.WriteLine($"Fill in your number Array: ");
+            for(int i = 0; i < MyArray.Length; i++)
             {
-                System.Console.WriteLine(Array[i]);
-            }            
+                
+                MyArray[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            for(int j = 0; j < MyArray.Length; j++)
+            {
+                if(max < MyArray[j]){
+                    max = MyArray[j];
+                }
+            }
+            
+            System.Console.WriteLine(max);
+
+
+
+              
             
             
             
