@@ -629,25 +629,64 @@ namespace Back_to_the_future_C_
             //         System.Console.WriteLine(Array[i]);
             //     }          
 
-            int SizeArray = 0;
-            System.Console.Write("Write you size of Array: ");
-            SizeArray = Convert.ToInt32(Console.ReadLine());
-            int[] MyArray = new int[SizeArray];
-            int max = 0;
-            System.Console.WriteLine($"Fill in your number Array: ");
-            for(int i = 0; i < MyArray.Length; i++)
-            {
+            // int SizeArray = 0;
+            // System.Console.Write("Write you size of Array: ");
+            // SizeArray = Convert.ToInt32(Console.ReadLine());
+            // int[] MyArray = new int[SizeArray];
+            // int max = 0;
+            // System.Console.WriteLine($"Fill in your number Array: ");
+            // for(int i = 0; i < MyArray.Length; i++)
+            // {
                 
-                MyArray[i] = Convert.ToInt32(Console.ReadLine());
-            }
-            for(int j = 0; j < MyArray.Length; j++)
+            //     MyArray[i] = Convert.ToInt32(Console.ReadLine());
+            // }
+            // for(int j = 0; j < MyArray.Length; j++)
+            // {
+            //     if(max < MyArray[j]){
+            //         max = MyArray[j];
+            //     }
+            // }
+            
+            // System.Console.WriteLine(max);
+            
+
+            // System.Console.Write("Write size of Array: ");
+            // int SizeArray = 0;
+            // SizeArray = Convert.ToInt32(Console.ReadLine());
+            // int[] RandomArray = new int [SizeArray];
+            // Random numbers = new Random();
+            // int counter = 0;
+            // for(int i = 0; i < RandomArray.Length; i++)
+            // {
+                
+            //     RandomArray[i] = numbers.Next(10);
+            // }
+            
+            // for(int j = 0; j < RandomArray.Length; j++)
+            // {
+            //     counter += RandomArray[j];
+            //     System.Console.Write(" " + RandomArray[j]);
+            // }
+            // System.Console.WriteLine("\n" + counter);
+
+
+
+            System.Console.Write("Write size of Array: ");
+            int SizeArray = Convert.ToInt32(Console.ReadLine());
+            int[] ArrayNum = new int[SizeArray];
+            int count = 0;
+            for(int i = 0; i < ArrayNum.Length; i++)
             {
-                if(max < MyArray[j]){
-                    max = MyArray[j];
+                ArrayNum[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            for(int j = 0; j < ArrayNum.Length; j++)
+            {
+                if(ArrayNum[j] % 2 == 0)
+                {
+                    count++;
                 }
             }
-            
-            System.Console.WriteLine(max);
+            System.Console.WriteLine(count);
 
 
 
