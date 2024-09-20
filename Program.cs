@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 using System.Net;
 using System.Runtime.InteropServices;
@@ -671,22 +672,84 @@ namespace Back_to_the_future_C_
 
 
 
-            System.Console.Write("Write size of Array: ");
-            int SizeArray = Convert.ToInt32(Console.ReadLine());
-            int[] ArrayNum = new int[SizeArray];
-            int count = 0;
-            for(int i = 0; i < ArrayNum.Length; i++)
-            {
-                ArrayNum[i] = Convert.ToInt32(Console.ReadLine());
-            }
-            for(int j = 0; j < ArrayNum.Length; j++)
-            {
-                if(ArrayNum[j] % 2 == 0)
+            // System.Console.Write("Write size of Array: ");
+            // int SizeArray = Convert.ToInt32(Console.ReadLine());
+            // int[] ArrayNum = new int[SizeArray];
+            // int count = 0;
+            // for(int i = 0; i < ArrayNum.Length; i++)
+            // {
+            //     ArrayNum[i] = Convert.ToInt32(Console.ReadLine());
+            // }
+            // for(int j = 0; j < ArrayNum.Length; j++)
+            // {
+            //     if(ArrayNum[j] % 2 == 0)
+            //     {
+            //         count++;
+            //     }
+            // }
+            // System.Console.WriteLine(count);
+
+
+//             4. Найти минимальный элемент и его индекс
+// Создай программу, которая находит минимальный элемент массива и выводит его индекс.
+
+                // System.Console.Write("Write your size of array: ");
+                // int SizeOFArray = Convert.ToInt32(Console.ReadLine()); 
+                // int[] ArrayNum = new int[SizeOFArray];
+                // Random random = new Random();
+                
+                // int max = 0;
+                // for(int i = 0; i < ArrayNum.Length; i++)
+                // {
+                //     ArrayNum[i] = Convert.ToInt32(Console.ReadLine());
+                // }
+                // for(int j = 0; j < ArrayNum.Length; j++)
+                // {
+                //     System.Console.WriteLine(ArrayNum[j]);
+                //    if(max < ArrayNum[j])
+                //    {
+                //     max = ArrayNum[j];
+                //    }
+                //    int SaveArray = ArrayNum[j];
+                // }
+                // int min = ArrayNum[0];
+                // int Index = 0;
+                // for(int l = 0; l < ArrayNum.Length; l++)
+                // {
+                //     if(min > ArrayNum[l])
+                //     {
+                //         Index = l;
+                //         min = ArrayNum[l];
+                //     }
+                // }
+                // System.Console.WriteLine("min element: " + min + "Index: " + Index);
+                // System.Console.WriteLine("max elemenets: " + max);
+
+
+               // Обратить порядок элементов массива
+                //Напиши программу, которая меняет порядок всех элементов в массиве на обратный (реверс массива).
+                System.Console.WriteLine("Write number for size of Array: ");
+                int SizeOfArray = Convert.ToInt32(Console.ReadLine());
+                int[] MyArray = new int[SizeOfArray];
+                System.Console.Write("Write numbers of Array: ");
+                for(int i = 0; i < MyArray.Length; i++)
                 {
-                    count++;
+                    MyArray[i] = Convert.ToInt32(Console.ReadLine());
                 }
-            }
-            System.Console.WriteLine(count);
+                System.Console.WriteLine("______________________________-");
+                for (int i = 0; i < MyArray.Length / 2; i++)
+                    {
+                    int temp = MyArray[i]; // Сохраняем текущее значение во временную переменную
+                    MyArray[i] = MyArray[MyArray.Length - 1 - i]; // Меняем местами с элементом с конца
+                    MyArray[MyArray.Length - 1 - i] = temp; // Присваиваем сохранённое значение в конец
+                    }
+
+
+                for(int j = 0; j < MyArray.Length; j++)
+                {
+                    System.Console.WriteLine(MyArray[j]);
+                }
+                 
 
 
 
