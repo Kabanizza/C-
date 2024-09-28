@@ -728,32 +728,88 @@ namespace Back_to_the_future_C_
 
                // Обратить порядок элементов массива
                 //Напиши программу, которая меняет порядок всех элементов в массиве на обратный (реверс массива).
-                System.Console.WriteLine("Write number for size of Array: ");
-                int SizeOfArray = Convert.ToInt32(Console.ReadLine());
-                int[] MyArray = new int[SizeOfArray];
-                System.Console.Write("Write numbers of Array: ");
-                for(int i = 0; i < MyArray.Length; i++)
-                {
-                    MyArray[i] = Convert.ToInt32(Console.ReadLine());
-                }
-                System.Console.WriteLine("______________________________-");
-                for (int i = 0; i < MyArray.Length / 2; i++)
-                    {
-                    int temp = MyArray[i]; // Сохраняем текущее значение во временную переменную
-                    MyArray[i] = MyArray[MyArray.Length - 1 - i]; // Меняем местами с элементом с конца
-                    MyArray[MyArray.Length - 1 - i] = temp; // Присваиваем сохранённое значение в конец
-                    }
+                // System.Console.WriteLine("Write number for size of Array: ");
+                // int SizeOfArray = Convert.ToInt32(Console.ReadLine());
+                // int[] MyArray = new int[SizeOfArray];
+                // System.Console.Write("Write numbers of Array: ");
+                // for(int i = 0; i < MyArray.Length; i++)
+                // {
+                //     MyArray[i] = Convert.ToInt32(Console.ReadLine());
+                // }
+                // System.Console.WriteLine("______________________________-");
+                // for (int i = 0; i < MyArray.Length / 2; i++)
+                //     {
+                //     int temp = MyArray[i]; // Сохраняем текущее значение во временную переменную
+                //     MyArray[i] = MyArray[MyArray.Length - 1 - i]; // Меняем местами с элементом с конца
+                //     MyArray[MyArray.Length - 1 - i] = temp; // Присваиваем сохранённое значение в конец
+                //     }
 
 
-                for(int j = 0; j < MyArray.Length; j++)
-                {
-                    System.Console.WriteLine(MyArray[j]);
-                }
+                // for(int j = 0; j < MyArray.Length; j++)
+                // {
+                //     System.Console.WriteLine(MyArray[j]);
+                // }
                  
 
+                 //Проверить, является ли массив палиндромом
 
+                // System.Console.Write("Write your size of massiv; ");
+                //  int SizeArray = Convert.ToInt32(Console.ReadLine());
+                //  int[] MyArray = new int[SizeArray];
+                //  int[] CoppyArray = new int[SizeArray];
+                //  System.Console.WriteLine("Write numbers of ur array: ");
+                //  for(int i = 0; i < MyArray.Length; i++)
+                //  {
+                //     MyArray[i] = Convert.ToInt32(Console.ReadLine());
 
-              
+                //  }
+
+                 
+                //  for(int q = 0; q < MyArray.Length; q++)
+                //  {
+                //     CoppyArray[q] = MyArray[q];
+                //  }
+
+                //   for(int j = 0; j < MyArray.Length / 2; j++)
+                //   {
+                //     int temp = MyArray[j];                          // Revers of Array
+                //     MyArray[j] = MyArray[MyArray.Length - 1 - j];
+                //     MyArray[MyArray.Length - 1 - j] = temp;
+                //   }
+                //     System.Console.WriteLine("The first Array: ");
+                //   foreach(int The_First in CoppyArray)
+                //   {
+                //     System.Console.Write(" " + The_First);
+                //   }
+                //     System.Console.WriteLine("\nThe second Array: ");
+                //   foreach(int The_Second in MyArray)
+                //   {
+                //     System.Console.Write(" " + The_Second);
+                //   }
+
+                //     int number = 0;
+                //   for(int e = 0; e < MyArray.Length; e++)
+                //   {
+
+                  
+                //     if(MyArray[e] == CoppyArray[e])
+                //     {
+                //         number = 1;
+                //     }
+                //     else{
+                //         number = 2;
+                //     }
+
+                //   }
+                //   if(number == 1)
+                //   {
+                //     System.Console.WriteLine("\nArray is palindrom");
+                //   }
+                //   if(number == 2)
+                //   {
+                //     System.Console.WriteLine("\nArray is not palindrom");
+
+                //   }
             
             
             
