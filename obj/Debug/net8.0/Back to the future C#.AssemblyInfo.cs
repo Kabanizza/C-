@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Back to the future C#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76a49c9bfcc831ae2b46eaa458c6a5ee205795ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+797022f40389544800b079f01b28721a628470e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Back to the future C#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Back to the future C#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,5 +1,6 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.Metrics;
 using System.Globalization;
 using System.Net;
 using System.Runtime.InteropServices;
@@ -810,8 +811,94 @@ namespace Back_to_the_future_C_
                 //     System.Console.WriteLine("\nArray is not palindrom");
 
                 //   }
-            
-            
+
+
+                // Переместить нули в конец массива
+
+
+                // int SizeOfArray;
+                // int ccounter = 0;
+                // Console.Write("Write size of array: ");
+                // int[] MyArray = new int[SizeOfArray = Convert.ToInt32(Console.ReadLine())];
+                // System.Console.WriteLine("Write number of Array: ");
+                // for(int i = 0; i < MyArray.Length; i++)
+                // {
+                //     ccounter++;
+                //     System.Console.Write($"Write the {ccounter} number: ");
+                //     MyArray[i] = Convert.ToInt32(Console.ReadLine());
+                    
+                // }
+                // int counterOfArray = 0;
+                // for(int i = 0; i < MyArray.Length; i++)
+                // {
+                //     if(MyArray[i] != 0)
+                //     {
+                //         MyArray[counterOfArray] = MyArray[i];
+                //         counterOfArray++;
+                //     }
+                // }
+                // for(int i = counterOfArray; i < MyArray.Length; i++)
+                // {
+                //     MyArray[i] = 0;
+                // }
+                // foreach(int i in MyArray)
+                // {
+                //     System.Console.Write(i + " ");
+                // }
+
+                //  Сдвиг элементов массива на заданное количество позиций
+                 
+            //     int SizeOFArray;
+            //     System.Console.Write("Write your array size: ");
+            //     int[] MyArray = new int[SizeOFArray = Convert.ToInt32(Console.ReadLine())];
+            //     System.Console.WriteLine("Write your shift: ");
+            //     int Shift = Convert.ToInt32(Console.ReadLine());
+            //     System.Console.WriteLine("Write the numbers of your array: ");
+            //     for(int i = 0; i < MyArray.Length; i++)
+            //     {
+            //         MyArray[i] = Convert.ToInt32(Console.ReadLine());
+            //     }
+                
+            //     for(int i = 0; i < MyArray.Length / 2; i++)
+            //     {
+            //       int temp = MyArray[i];
+            //       MyArray[i] = MyArray[MyArray.Length - 1 - i];
+            //      MyArray[MyArray.Length - 1 - i] = temp;
+            //     }
+            //     for(int j = 0; j < (MyArray.Length - Shift) / 2; j++)
+            //     {
+            //         int temp = MyArray[j];
+            //         MyArray[j] = MyArray[(MyArray.Length - Shift) - 1 -j];
+            //         MyArray[(MyArray.Length - Shift) - 1 - j] = temp;
+            //     }
+
+            //     for(int k = 0; k < Shift / 2; k++)
+            //     {
+            //         int temp = MyArray[MyArray.Length - Shift + k];
+            //         MyArray[MyArray.Length - Shift + k] = MyArray[MyArray.Length - 1 - k];
+            //         MyArray[MyArray.Length - 1 - k] = temp;
+
+            //     }
+
+
+
+            // foreach(int i in MyArray)
+            //     {
+            //         System.Console.Write(" " + i);
+            //     }
+
+
+            int sum = 0;
+            int[] Myarray = new int[5]{1, 2, 3, 4, 5};
+            foreach(int i in Myarray)
+            {
+                sum = sum + i;
+            }
+            System.Console.WriteLine(sum);
+            System.Console.WriteLine("Hello");
+
+             
+                 
             
         
     }
