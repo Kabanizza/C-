@@ -888,24 +888,302 @@ namespace Back_to_the_future_C_
             //     }
 
 
-            int sum = 0;
-            int[] Myarray = new int[5]{1, 2, 3, 4, 5};
-            foreach(int i in Myarray)
-            {
-                sum = sum + i;
-            }
-            System.Console.WriteLine(sum);
-            System.Console.WriteLine("Hello");
+        // for(int i = 1; i <= 9; i++)
+        // {
+        // System.Console.WriteLine(" ");
+        //     for(int j = 1; j <= 9; j++)
+        //     {
+
+        //         int number = 1;
+        //         int Numbers = j * number;
+        //         Console.WriteLine($"{number} * {j} = {Numbers}");
+        //     }
+        //     for(int l = 1; l <= 9; l++)
+        //     {
+
+        //         int number = 2;
+        //         int Numbers = l * number;
+        //         Console.WriteLine($"\t{number} * {l} = {Numbers}");
+        //     }
+            
+        // }
+
+
+        // 1. Min number of Array
+        // System.Console.WriteLine("Write your size of array: ");
+        // int SizeOfArray = Convert.ToInt32(Console.ReadLine());
+        // int[] MyArray = new int[SizeOfArray];
+        // System.Console.WriteLine("Write your Array: ");
+        // for(int i =  0; i < MyArray.Length; i++)
+        // {
+        //     MyArray[i] = Convert.ToInt32(Console.ReadLine());
+        // }
+        //     int min = MyArray[0];
+
+        //     for(int i = 0; i < MyArray.Length; i++)
+        // {
+        //     if(min > MyArray[i])
+        //     {
+        //         min = MyArray[i];
+        //     }
+        // }
+        // System.Console.Write("min: " + min);
+
+        // 2. Max number of Array
+
+        // System.Console.WriteLine("Write your size of array: ");
+        // int SizeOfArray = Convert.ToInt32(Console.ReadLine());
+        // int[] MyArray = new int[SizeOfArray];
+        // System.Console.WriteLine("Write your Array: ");
+        // for(int i =  0; i < MyArray.Length; i++)
+        // {
+        //     MyArray[i] = Convert.ToInt32(Console.ReadLine());
+        // }
+        //     int max = MyArray[0];
+
+        //     for(int i = 0; i < MyArray.Length; i++)
+        // {
+        //     if(max < MyArray[i])
+        //     {
+        //         max = MyArray[i];
+        //     }
+        // }
+        // System.Console.Write("max: " + max);
+
+        // 3. Min and Max of the array
+
+        // System.Console.WriteLine("Write your size of array: ");
+        // int SizeOfArray = Convert.ToInt32(Console.ReadLine());
+        // int[] MyArray = new int[SizeOfArray];
+        // System.Console.WriteLine("Write your Array: ");
+        // for(int i =  0; i < MyArray.Length; i++)
+        // {
+        //     MyArray[i] = Convert.ToInt32(Console.ReadLine());
+        // }
+        //     int min = MyArray[0];
+        //     int max = min;
+
+        //     for(int i = 0; i < MyArray.Length; i++)
+        // {
+        //     if(min > MyArray[i])
+        //     {
+        //         min = MyArray[i];
+        //     }
+        //     if(max < MyArray[i])
+        //     {
+        //         max = MyArray[i];
+        //     }
+
+        // }
+        // System.Console.WriteLine("min: " + min);
+        // System.Console.WriteLine("max: " + max);
 
              
-                 
+        //4. Swap numbers in Array
+
+        // System.Console.WriteLine("Write your size of array: ");
+        // int SizeOfArray = Convert.ToInt32(Console.ReadLine());
+        // int[] MyArray = new int[SizeOfArray];
+        // System.Console.WriteLine("Write your Array: ");
+        // for(int i =  0; i < MyArray.Length; i++)
+        // {
+        //     MyArray[i] = Convert.ToInt32(Console.ReadLine());
+        // }
+        // int temp = 0;
+        // for(int i = 0; i < MyArray.Length - 1; i++)
+        // {
             
+        //     temp = MyArray[i];
+        //     MyArray[i] = MyArray[i + 1];
+        //     MyArray[i + 1] = temp;
+        //     i = i + 1;
+            
+        // }
+        // foreach(int i in MyArray)
+        // {
+        //     System.Console.WriteLine(i);
+        // }
+
+
+        // 5. Rewert Rows and cols
+    //     int[,] MyArray = {
+    //         { 1, 2, 3 },
+    //         { 4, 5, 6 },
+    //         { 7, 8, 9 }
+    //     };
+
         
+    //     int rows = 3; 
+    //     int cols = 3; 
+
+
+    //     Console.WriteLine(" your Original Array:");
+    //     for (int i = 0; i < rows; i++)
+    //     {
+    //         for (int j = 0; j < cols; j++)
+    //         {
+    //             Console.Write(MyArray[i, j] + "\t");
+    //         }
+    //         Console.WriteLine();
+    //     }
+
+        
+    //     Console.WriteLine("Transplant array:");
+    //     for (int i = 0; i < cols; i++)
+    //     {
+    //         for (int j = 0; j < rows; j++)
+    //         {
+    //             Console.Write(MyArray[j, i] + "\t");
+    //         }
+    //         Console.WriteLine();
+    //     }
+
+
+    //     6.
+
+        
+    //     char[] MyArray = { 'a', 'b', 'c', 'a', 'd', 'e', 'a' };
+    //     char LetterToFind = 'a';
+
+        
+    //     int[] Positions = new int[MyArray.Length];
+    //     int Counter = 0;
+
+        
+    //     for (int Index = 0; Index < MyArray.Length; Index++)
+    //     {
+    //         if (MyArray[Index] == LetterToFind)
+    //         {
+    //             Positions[Counter] = Index;  
+    //             Counter++;  
+    //         }
+    //     }
+
+        
+    //     Console.Write("Letter '" + LetterToFind + "' found at indices: ");
+    //     for (int Index = 0; Index < Counter; Index++)
+    //     {
+    //         Console.Write(Positions[Index]);
+    //         if (Index < Counter - 1)
+    //         {
+    //             Console.Write(", ");
+    //         }
+    //     }
+    //     Console.WriteLine();
+
+
+
+            //Multiolication table
+
+
+            // int MainNumber = 9;
+            // int Temporal = 0;
+            // int FinalNumber = 0;
+            // int size = 10;
+            // int TheFirstNumber = 0;
+            // for(int i = 1; i <= size; i++)
+            // {
+            //     for(int j = 1; j <= size; j++)
+            //     {
+            //         System.Console.Write(i * j + "\t");
+            //     }
+            //     System.Console.WriteLine();
+            // }
+
+
+            // //Sum Number
+
+            // int NumberFromUser = 0;
+            // int sum = 0;
+            // System.Console.Write("Write number: ");
+            // NumberFromUser = Convert.ToInt32(Console.ReadLine());
+            // for(int i = 0; i <= NumberFromUser; i++)
+            // {
+            //     sum = sum + i;
+            // }
+            // System.Console.WriteLine($"sum of all numbers from 0 to {NumberFromUser} = {sum}");
+
+
+            //Number of digits
+            // int NumberFromUser = 0;
+            // System.Console.Write("Write you number: ");
+            // NumberFromUser = Convert.ToInt32(Console.ReadLine());
+            // int number = 0;
+            // int count = 0;
+            // for(int i = NumberFromUser; i > 0; i /= 10)
+            // {
+            //     count++;
+            // }
+            // System.Console.WriteLine(count);
+            
+            //Palindrom number
+            // System.Console.Write("Write your Number: ");
+            // int NumberFromUser = Convert.ToInt32(Console.ReadLine());
+            // int number = NumberFromUser;
+            // int count = 0;
+            // int ReverseNumber = 0;
+            // for(int i = number; number > 0; i++)
+            // {
+            //     count = number % 10;
+                
+            //     ReverseNumber = ReverseNumber * 10 + count;
+                
+            //     number = number / 10;
+                
+            // }
+        
+            // if(ReverseNumber == NumberFromUser)
+            // {
+            //     Console.WriteLine("Number is a palindrom");
+            // }
+            // else{
+            //     System.Console.WriteLine("Number is not a palindrom");
+            // }
+
+
+            //Factorial of the number
+
+
+            // int NumberFromUser = 0;
+            // System.Console.Write("Write your number: ");
+            // NumberFromUser = Convert.ToInt32(Console.ReadLine());
+            // int Temporal = 1;
+            // for(int i = 1; i <= NumberFromUser; i++)
+            // {
+            //     Temporal *= i;
+            // }
+            // System.Console.WriteLine("Factorial: " + Temporal);
+            
+            //All deviders of number;
+
+            // int NumberFromUser;
+            // System.Console.WriteLine("write youre number: ");
+            // NumberFromUser = Convert.ToInt32(Console.ReadLine());
+            // for(int i = 1; i <= NumberFromUser; i++)
+            // {
+            //     if(NumberFromUser % i == 0)
+            //     {
+            //         int Temporal = i;
+            //         System.Console.Write(" " + Temporal);
+            //     }
+            // }
+
+            
+
+            
+
+
+            
+
+     }
+}
+
     }
+    
 
-        
 
-    }}
+
+            
 
         
       
