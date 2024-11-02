@@ -1,5 +1,6 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.Metrics;
 using System.Globalization;
 using System.Net;
@@ -1168,14 +1169,291 @@ namespace Back_to_the_future_C_
             //     }
             // }
 
+
+            // Sum all numbers of Number
+            // int NumberFromUser;
+            // System.Console.WriteLine("Write your number: ");
+            // NumberFromUser = Convert.ToInt32(Console.ReadLine());
+            // int i = 0;
+            // int Counter = 0;
+            // int TemporalNumber;
+            // while(NumberFromUser > 0)
+            // {
+            //     TemporalNumber = NumberFromUser % 10;
+            //     Counter += TemporalNumber;
+            //     NumberFromUser /= 10;
+            // }
+            
+            // System.Console.WriteLine(Counter);
+            
+//   #####
+//   ##### -- graf
+//   #####
+        // int NumberFromUser;
+        // System.Console.WriteLine("Write your number: ");
+        // NumberFromUser = Convert.ToInt32(Console.ReadLine());
+        // int hieght =  5;
+        // int width = 3;
+        // for(int i = 1; i <= width; i++)
+        // {
+        //     for(int j = 1; j < hieght; j++)
+        //     {
+                
+        //     System.Console.Write("#");
+                    
+        //     }
+        //     System.Console.WriteLine("#");
+            
+        // }
+            //all simple numbers up to the user number
+
+        //     int NumberFromUser;
+        // System.Console.WriteLine("Write your number: ");
+        // NumberFromUser = Convert.ToInt32(Console.ReadLine());
+        
+        // for(int i = 2; i <= NumberFromUser; i++)
+        // {
+        //     int count = 0;
+            
+        //     for(int j = 2; j < i; j++)
+        //     {
+                
+        //     if(i % j == 0)
+        //     {
+                
+        //          count++;
+        //          break;
+        //     }
+                 
+        //     }
+             
+        //   if(count == 0)
+        //   {
+        //     System.Console.WriteLine(i);
+        //   }
+        // }
             
 
+        //factorial with loop
+
+        // int NumberFromUser = 0;
+        // System.Console.Write("Write youre number: ");
+        // NumberFromUser = Convert.ToInt32(Console.ReadLine());
+        // int i = 1;
+        // int temp = 1;
+        // while(i <= NumberFromUser)
+        // {
+        //     temp *= i;
             
+        //     i++;
+        // }
+        // System.Console.WriteLine(temp);
 
 
+
+        //even(четные) numbers from 0 to 100;
+
+
+        // int Number = 100;
+        // for(int i = 0; i <= Number; i++)
+        // {
+        //     if(i % 2 == 0)
+        //     {
+        //         System.Console.WriteLine(i);
+        //     }
+        // }
+
+        //revers numbers from 10 to 0 with loop do-while
+
+        // int StartNumber = 10;
+        // int EndNumber = 0;
+        // do{
+        //     System.Console.WriteLine(StartNumber);
+        //     StartNumber--;
+        // }
+        // while(StartNumber != EndNumber);
+
+        // all number in degree 2
+        // int NumberDegree = 2;
+        // for(int i = 1; i <= 10; i++)
+        // {
+        //     System.Console.WriteLine("The all numbers degree 2: " + Math.Pow(NumberDegree, i));
+        // }
+
+
+        // all simlp numbers in numberfromuser
+
+        // int NumberFromMe = 100;
+        // for(int i = 2; i <= NumberFromMe; i++)
+        // {
+        //      int count = 0;
+        //     for(int j = 2; j < i; j++)
+        //     {
+               
+        //         if(i % j == 0)
+        //         {
+        //             count++;
+        //             break;
+        //         }
+                
+        //     }
+        //     if(count == 0)
+        //     {
+        //         Console.Write(" " + i);
+        //     }
+        // }
+
+        // Numbers of Phibonachi
+
+        // int NumberFromUser = 5;
+        // int i = 0;
+        // int a = 0;
+        // int b = 1;
+
+        // while(i < NumberFromUser)
+        // {
+        //     System.Console.WriteLine(a + " ");
+        //     int temp = a + b;
+        //     a = b;
+        //     b = temp;
             
+        //     i++;
+        // }
 
-     }
+        //Spelling 
+        // string? WordFromUser = Console.ReadLine();
+        // foreach(char i in WordFromUser)
+        // {
+        //     System.Console.Write(" " + i);
+        // }
+
+        // //The middle of number
+        // int SizeOfNumber = 0, NumbersFromUser = 0;
+        // System.Console.Write("write size of your array: ");
+        // SizeOfNumber = Convert.ToInt32(Console.ReadLine());
+        // System.Console.WriteLine("Write your numbers: ");
+        // int temp = 0;
+        // for(int i = 1; i <= SizeOfNumber; i++)
+        // {
+        //     System.Console.Write($"{i} number: ");
+        //     NumbersFromUser = Convert.ToInt32(Console.ReadLine());
+        //     temp += NumbersFromUser;
+            
+        // }
+        // System.Console.WriteLine("The middle number: " + temp / SizeOfNumber);
+
+        //Guess the number
+
+    //     Random random = new Random();
+    //     int NumberOfrRandom = random.Next(1, 100);
+    //     int numberfromuser;
+        
+    //     while(true)
+    //     {
+    //         System.Console.WriteLine("write youre number: ");
+    //         numberfromuser = Convert.ToInt32(Console.ReadLine());
+    //         if(numberfromuser == NumberOfrRandom)
+    //         {
+    //             System.Console.WriteLine($"R{NumberOfrRandom}Y{numberfromuser}It is correct number, you are Win!!, congratulations!!!");
+    //             break;
+    //         }
+    //         else{
+    //             System.Console.WriteLine("Isnt corect number, try again");
+    //         }
+
+    //     }
+
+            // //SumArray
+            // System.Console.WriteLine("Write size of number");
+            // int SizeOFArray = Convert.ToInt32(Console.ReadLine());
+            // int[] ArrayFromUser = new int[SizeOFArray];
+            // int temp = 0;
+            // for(int i = 0; i < ArrayFromUser.Length; i++)
+            // {
+            //     ArrayFromUser[i] = Convert.ToInt32(Console.ReadLine());
+            // }
+            // for(int i = 0; i < ArrayFromUser.Length; i++)
+            // {
+            //     temp += ArrayFromUser[i];
+            // }
+            // System.Console.WriteLine(temp);
+
+            //Min and max numbers in array
+
+            // System.Console.WriteLine("Write size of number");
+            // int SizeOFArray = Convert.ToInt32(Console.ReadLine());
+            // int[] ArrayFromUser = new int[SizeOFArray];
+     
+            // for(int i = 0; i < ArrayFromUser.Length; i++)
+            // {
+            //     ArrayFromUser[i] = Convert.ToInt32(Console.ReadLine());
+            // }
+            //        int temp = ArrayFromUser[0];
+            // int temp1 = ArrayFromUser[0];
+
+            // for(int i = 0; i < ArrayFromUser.Length; i++)
+            // {
+            //     if(ArrayFromUser[i] > temp)
+            //     {
+            //         temp = ArrayFromUser[i];
+            //     }
+            //     if(ArrayFromUser[i] < temp1)
+            //     {
+            //         temp1 = ArrayFromUser[i];
+            //     }
+            // }
+            // System.Console.WriteLine("max: " + temp);
+            // System.Console.WriteLine("min: " + temp1);
+
+
+            //Positive and negative numbers
+
+            // System.Console.WriteLine("Write size of number");
+            // int SizeOFArray = Convert.ToInt32(Console.ReadLine());
+            // int[] ArrayFromUser = new int[SizeOFArray];
+            // System.Console.WriteLine("Write numbers for array: ");
+            // int Positive = 0;
+            // int Negative = 0;
+            // for(int i = 0; i < ArrayFromUser.Length; i++)
+            // {
+            //     ArrayFromUser[i] = Convert.ToInt32(Console.ReadLine());
+            // }
+
+            // for(int i = 0; i < ArrayFromUser.Length; i++)
+            // {
+            //     if(ArrayFromUser[i] > 0)
+            //     {
+            //      Positive++;             
+            //     }
+            //     else{
+            //         Negative++;
+            //     }
+            // }           
+            // System.Console.WriteLine($"amount positive numbers = {Positive}");
+            // System.Console.WriteLine($"amount negative numbers = {Negative}");
+
+
+            //Inversion of array
+
+            System.Console.WriteLine("Write size of number");
+            int SizeOFArray = Convert.ToInt32(Console.ReadLine());
+            int[] ArrayFromUser = new int[SizeOFArray];
+     
+            for(int i = 0; i < ArrayFromUser.Length; i++)
+            {
+                ArrayFromUser[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            for(int i = SizeOFArray - 1; i >= 0; i--)
+            {
+                System.Console.WriteLine(ArrayFromUser[i]);
+            }
+
+
+    }
+
+
+
+
 }
 
     }
