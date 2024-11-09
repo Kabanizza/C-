@@ -1435,18 +1435,52 @@ namespace Back_to_the_future_C_
 
             //Inversion of array
 
-            System.Console.WriteLine("Write size of number");
-            int SizeOFArray = Convert.ToInt32(Console.ReadLine());
-            int[] ArrayFromUser = new int[SizeOFArray];
+            // System.Console.WriteLine("Write size of number");
+            // int SizeOFArray = Convert.ToInt32(Console.ReadLine());
+            // int[] ArrayFromUser = new int[SizeOFArray];
      
-            for(int i = 0; i < ArrayFromUser.Length; i++)
+            // for(int i = 0; i < ArrayFromUser.Length; i++)
+            // {
+            //     ArrayFromUser[i] = Convert.ToInt32(Console.ReadLine());
+            // }
+            // for(int i = SizeOFArray - 1; i >= 0; i--)
+            // {
+            //     System.Console.WriteLine(ArrayFromUser[i]);
+            // }
+            
+
+            //Find element in array
+
+
+            System.Console.Write("Write size of your Array: ");
+            int SizeOFArray = Convert.ToInt32(Console.ReadLine());
+            int[] MyArray = new int[SizeOFArray];
+            int temp = 0;
+            System.Console.WriteLine("Write numbers for Array: ");
+            for(int i = 0; i < MyArray.Length; i++)
             {
-                ArrayFromUser[i] = Convert.ToInt32(Console.ReadLine());
+                MyArray[i] = Convert.ToInt32(Console.ReadLine());
             }
-            for(int i = SizeOFArray - 1; i >= 0; i--)
+            System.Console.Write("WRITE find number: ");
+            int FindNumber = Convert.ToInt32(Console.ReadLine());
+            for(int i = 0; i < MyArray.Length; i++)
             {
-                System.Console.WriteLine(ArrayFromUser[i]);
+                if(FindNumber == MyArray[i])
+                {
+                    temp = i;
+                    
+                }
+                
             }
+            
+            if(temp == FindNumber - 1)
+            {
+                System.Console.WriteLine($"Number is found and him Index: {temp}");
+            }
+            else{
+                System.Console.WriteLine("ERROr!");
+            }
+
 
 
     }
