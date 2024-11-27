@@ -1679,35 +1679,131 @@ namespace Back_to_the_future_C_
 
         //bubble sortage
 
-        System.Console.Write("Write size from Array: ");
-        int SizeOFArray = Convert.ToInt32(Console.ReadLine());
-        int[] ArrayFromUser = new int[SizeOFArray];
-        System.Console.WriteLine("Write elements from array: ");
-        for(int i = 0; i < ArrayFromUser.Length; i++)
-        {
-            ArrayFromUser[i] = Convert.ToInt32(Console.ReadLine());
-        }
-        int Temporal = 0;
-        for(int i = 0; i < ArrayFromUser.Length; i++)
-        {
-            for(int j = 0; j < ArrayFromUser.Length - 1; j++)
-            {
+        // System.Console.Write("Write size from Array: ");
+        // int SizeOFArray = Convert.ToInt32(Console.ReadLine());
+        // int[] ArrayFromUser = new int[SizeOFArray];
+        // System.Console.WriteLine("Write elements from array: ");
+        // for(int i = 0; i < ArrayFromUser.Length; i++)
+        // {
+        //     ArrayFromUser[i] = Convert.ToInt32(Console.ReadLine());
+        // }
+        // int Temporal = 0;
+        // for(int i = 0; i < ArrayFromUser.Length; i++)
+        // {
+        //     for(int j = 0; j < ArrayFromUser.Length - 1; j++)
+        //     {
                 
-                if(ArrayFromUser[j] > ArrayFromUser[j + 1])
-                {
-                    Temporal = ArrayFromUser[j];
-                    ArrayFromUser[j] = ArrayFromUser[j + 1];
-                    ArrayFromUser[j + 1] = Temporal;
-                }
+        //         if(ArrayFromUser[j] > ArrayFromUser[j + 1])
+        //         {
+        //             Temporal = ArrayFromUser[j];
+        //             ArrayFromUser[j] = ArrayFromUser[j + 1];
+        //             ArrayFromUser[j + 1] = Temporal;
+        //         }
                 
                 
-            }
-        }
-        foreach(int i in ArrayFromUser)
-        {
-            System.Console.Write(" " + i);
-        }
+        //     }
+        // }
+        // foreach(int i in ArrayFromUser)
+        // {
+        //     System.Console.Write(" " + i);
+        // }
             
+
+            //Palindrom array
+
+            // int[] MyArray = new int[] {1, 0, 0 ,0 ,1};
+            // foreach(int i in MyArray)
+            // {
+            //     System.Console.WriteLine(" " + i);
+            // }
+            // bool counter = true;;
+            // int Temporal = MyArray.Length;
+            // for(int i = 0; i < MyArray.Length / 2; i++)
+            // {
+            //     if(MyArray[i] != MyArray[MyArray.Length - 1 - i])
+            //     {
+            //         counter = false;
+            //         break;
+            //     }
+            // }
+            // if(counter)
+            // {
+            //     System.Console.WriteLine("Array is a palindrom");
+
+            // }
+            // else{
+            //     System.Console.WriteLine("Array is not a palindrom");
+            // }
+
+            //The summuary twice array
+            // int[] TheFirstArray = new int[]{1, 2, 3, 4, 5};
+            // int[] TheSecondArray = new int[]{1, 2, 3, 4, 5};
+            // int[] TheThirdArray = new int[TheFirstArray.Length];
+            // for(int i = 0; i < TheFirstArray.Length; i++)
+            // {
+            //     TheThirdArray[i] = TheFirstArray[i] + TheSecondArray[i];
+            // }
+            // foreach(int i in TheThirdArray)
+            // {
+            //     System.Console.WriteLine(i);
+            // }
+
+
+            //delete dublicate
+
+            int[] TheMainArray = {1, 2, 3, 4, 5, 2, 3};
+            int newSize = 0;
+
+            
+            for(int i = 0; i < TheMainArray.Length; i++)
+            {
+                bool isDublicate = false;
+                for(int j = 0; j < i; j++)
+                {
+                    if(TheMainArray[i] == TheMainArray[j])
+                    {
+                        isDublicate = true;
+                        break;
+                    }
+
+                }
+                if(!isDublicate)
+                {
+                    newSize++;
+                }
+            }
+        
+
+             int[] TheFinalArray = new int[newSize];
+
+            
+
+            int index = 0;
+
+             for(int i = 0; i < TheMainArray.Length; i++)
+             {
+                bool dublicate = false;
+                for(int j = 0; j < i; j++)
+                {
+                    if(TheMainArray[i] == TheMainArray[j])
+                    {
+                        dublicate = true;
+                        break;
+                    }
+                    
+                }
+                if(!dublicate)
+                    {
+                        TheFinalArray[index] = TheMainArray[i];
+                        index++;
+
+                    }
+
+             }
+             foreach(int i in TheFinalArray)
+             {
+                System.Console.Write(" " + i);
+             }
 
 
 
